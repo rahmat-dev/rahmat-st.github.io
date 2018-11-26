@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-	setTimeout(function() {
   	$('.preloader').hide();
-  }, 1000);
 
 	$('.page-scroll').on('click', function(e) {
 		
