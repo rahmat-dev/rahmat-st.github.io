@@ -2,9 +2,263 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Rahmat Sulistio | Portfolio</title>
+	<link type="text/css" rel="stylesheet" href="assets/css/material_icons.css" />
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-	Rahmat Sulistio
+<body data-spy="scroll" data-target="#navbarSpy" data-offset="68">
+
+	<!-- PRE-LOADER -->
+	<div class="preloader justify-content-center" id="preloader">
+		<div class="text-center">
+			<div class="load"></div>
+			<p>Loading...</p>
+		</div>
+	</div>
+
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbarSpy">
+		<div class="container">
+			<a href="#" class="navbar-brand page-scroll">
+				<h1>It's Me</h1>
+			</a>
+			<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<div class="navbar-nav ml-auto">
+					<!-- <a href="" class="nav-item nav-link active">Home</a> -->
+					<a href="#tentang" class="nav-item nav-link page-scroll active">Tentang</a>
+					<a href="#portfolio" class="nav-item nav-link page-scroll">Portfolio</a>
+					<a href="#kontak" class="nav-item nav-link page-scroll">Kontak</a>
+					<a href="#kontak" class="nav-item btn tombol-hitam page-scroll">Butuh Bantuan?</a>
+				</div>
+			</div>
+		</div>
+	</nav><!-- akhir navbar-->
+
+	<!-- <section class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <img src="images/me.jpg" alt="ME" class="img-fluid rounded-circle" width="100">
+			<p class="lead"><span>Kerja sama tim</span><br>untuk hasil yang maksimal</p>
+			<button class="btn btn-light tombol-hitam">Button</button>
+    </div>
+	</section> -->
+
+	<section class="tentang" id="tentang">
+		<div class="container text-center">
+<!-- 				<div class="row mb-4">
+				<div class="col">
+					<h3 class="">ABOUT</h3>
+				</div>
+			</div> -->
+			<div class="justify-content-center mt-5">
+				<img class="card-img-top rounded-circle img-thumbnail mx-auto" src="images/me2.jpg" alt="Card image cap">
+				<h2>Rahmat Sulistio</h2>
+				<button class="btn btn-outline-dark mt-3 viewMore" data-toggle="modal" data-target="#viewMore">View More</button>
+			</div>
+			<div class="justify-content-center mt-5">
+				<div class="row skill">
+					<div class="col">
+						<h4>SKILL</h4>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-3 col-sm-6 col-8 mt-3">
+						<h6>WEB DEVELOPMENT</h6>
+						<div class="progress" style="height: 7px;">
+						  <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-8 mt-3">
+						<h6>MOBILE DEVELOPMENT</h6>
+						<div class="progress" style="height: 7px;">
+						  <div class="progress-bar bg-primary" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-8 mt-3">
+						<h6>GAME DEVELOPMENT</h6>
+						<div class="progress" style="height: 7px;">
+						  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="modal fade" id="viewMore" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h3 class="modal-title w-100">TENTANG SAYA</h3>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body mx-4">
+	        <div class="row">
+	        	<div class="col-4">Nama</div>
+	        	<div class="col-1">:</div>
+	        	<div class="col-7">Rahmat Sulistio</div>
+	        </div>
+	        <div class="row">
+	        	<div class="col-4">Skill</div>
+	        	<div class="col-1">:</div>
+	        	<div class="col-7">
+	        		<div>HTML</div>
+			  			<div class="progress" style="height: 7px;">
+							  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="mt-2">CSS</div>
+			  			<div class="progress" style="height: 7px;">
+							  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="mt-2">JAVASCRIPT</div>
+			  			<div class="progress" style="height: 7px;">
+							  <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="mt-2">PHP</div>
+			  			<div class="progress" style="height: 7px;">
+							  <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+							<div class="mt-2">MySQL</div>
+			  			<div class="progress" style="height: 7px;">
+							  <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+	        	</div>
+	        </div>
+	        <div class="row">
+	        	<div class="col-4">Keahlian Lainnya</div>
+	        	<div class="col-1">:</div>
+	        	<div class="col-7">
+	        		<li>Bootstrap 4</li>
+	        		<li>Laravel Framework</li>
+	        	</div>
+	        </div>
+	        <!-- <span style="font-size: 20px;">Pendidikan</span> -->
+	        <div class="row">
+	        	<div class="col-4">Pendidikan</div>
+	        	<div class="col-1">:</div>
+	        	<div class="col-7">
+	        		<li>SD NEGERI 134410 TANJUNGBALAI (2005-2011)</li>
+	        		<li>SMP NEGERI 1 TANJUNGBALAI (2011-2014)</li>
+	        		<li>SMA NEGERI 1 TANJUNGBALAI (2014-2017)</li>
+	        		<li>UNIVERSITAS NEGERI SUMATERA UTARA - Sistem Informasi (2017-?)</li>
+	        	</div>
+	        </div>
+	        <p style="font-size: 20px;">KONTAK</p>
+	        <div class="row">
+						<div class="col-lg-3 col-sm-6"><a href="https://api.whatsapp.com/send?phone=6283190959109&text=Bisakah%20Anda%20membuatkan%20saya%20sebuah%20website?" class="btn btn-outline-success"><i class="material-icons">message</i>&nbsp; WhatsApp</a></div>
+        		<div class="col-lg-3 col-sm-6"><a href="https://www.facebook.com/rahmatst05" class="btn btn-outline-primary"><b>f</b>&nbsp; Facebook</a></div>
+						<div class="col-lg-3 col-sm-6"><a href="tel:+6283190959109" class="btn btn-outline-dark"><i class="material-icons">phone</i>&nbsp; Telepon</a></div>
+						<div class="col-lg-3 col-sm-6"><a href="mailto:rr7465457@gmail.com" class="btn btn-outline-danger"><i class="material-icons">mail</i>&nbsp; E-Mail</a></div>
+	        </div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- PORTFOLIO -->
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h3 class="text-center text-light">PORTFOLIO</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md">
+					<a href="" class="zoom">
+						<img src="images/2.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+						<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, culpa!</span>
+					</a>
+				</div>
+				<div class="col-md">
+					<a href="" class="zoom">
+						<img src="images/port-andro.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+						<span>Aplikasi Android - Learn Islam (Asma wa Sifat)</span>
+					</a>
+				</div>
+				<div class="col-md">
+					<a href="" class="zoom">
+						<img src="images/2.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+						<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, culpa!</span>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md">
+					<a href="" class="zoom">
+						<img src="images/5.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+						<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, culpa!</span>
+					</a>
+				</div>
+				<div class="col-md">
+					<a href="" class="zoom">
+						<img src="images/2.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+						<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, culpa!</span>
+					</a>
+				</div>
+				<div class="col-md">
+					<a href="" class="zoom">
+						<img src="images/6.jpg" class="img-fluid img-thumbnail" alt="Responsive image">
+						<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, culpa!</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- KONTAK -->
+	<section class="kontak mb-3" id="kontak">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h3 class="">KONTAK</h3>
+				</div>
+			</div>
+			<div class="row justify-content-center mt-4">
+				<div class="col-lg-6 col-10">
+					<form action="mailto:rr7465457@gmail.com">
+						<div class="form-group">
+							<label for="nama">Nama</label>
+							<input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="text" class="form-control" id="email" placeholder="Masukkan email Anda">
+						</div>
+						<div class="form-group">
+							<label for="telp">No Telepon</label>
+							<input type="text" class="form-control" id="telp" placeholder="Masukkan nomor telepon Anda">
+						</div>
+						<div class="form-group">
+							<label for="pesan">Pesan</label>
+							<textarea id="pesan" rows="5" class="form-control" placeholder="Apa yang Anda butuhkan?"></textarea>
+						</div>
+						<button type="submit" class="btn btn-dark mb-2 px-3 viaEmail"><i class="material-icons">send</i>&nbsp;Kirim</button>
+						<a href="https://api.whatsapp.com/send?phone=6283190959109&text=Bisakah%20Anda%20membuatkan%20saya%20sebuah%20website?" class="btn btn-success mb-2 px-3 viaWa"><i class="material-icons">message</i>&nbsp; Hubungi via WhatsApp</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer text-center">
+		<p>&copy; 2018 SiMamat. All rights reserved.</p>
+	</footer>
+
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 </html>
