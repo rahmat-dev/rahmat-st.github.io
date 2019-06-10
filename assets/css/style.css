@@ -224,6 +224,38 @@ div.row div.col-sm-6:nth-child(n+2) {
 	margin-top: 12px;
 }
 
+ul.nav-pills li.nav-item a::after {
+	border: none;
+}
+
+ul.nav-pills li.nav-item a {
+	color: gray !important;
+	border: 1px solid gray;
+	border-bottom: 3px solid gray;
+	font-weight: 500;
+	margin-right: 0;
+}
+
+ul.nav-pills li.nav-item a.active {
+	color: white !important;
+	background-color: #343a40 !important;
+	border: none;
+	border-bottom: 3px solid black;
+}
+
+.tab-pane .row .col-4 p {
+	font-weight: bold;
+}
+
+#pills-education .pl-4 p {
+	margin-bottom: 0;
+}
+
+#pills-education .pl-4 i {
+
+	margin-bottom: 2rem;
+}
+
 /* PORTFOLIO */
 section.portfolio {
 	margin-top: 33px;
@@ -285,6 +317,27 @@ section.portfolio {
 	width: 70%;
 }
 
+#img-tanbeku {
+	display: inline-block;
+	/*width: 100%;*/
+	position: relative;
+}
+
+#img-tanbeku::after {
+	content: 'TANBEKU';
+	position: absolute;
+	background: teal;
+	color: white;
+	font-size: 36px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 30px;
+	border: 3px solid white;
+}
+
+/* CONTACT */
 section.kontak {
 	width: 100%;
 	/*height: 100vh;*/
