@@ -224,6 +224,10 @@ div.row div.col-sm-6:nth-child(n+2) {
 	margin-top: 12px;
 }
 
+li.nav-item {
+	padding: 0;
+}
+
 ul.nav-pills li.nav-item a::after {
 	border: none;
 }
@@ -234,6 +238,7 @@ ul.nav-pills li.nav-item a {
 	border-bottom: 3px solid gray;
 	font-weight: 500;
 	margin-right: 0;
+	height: 44px !important;
 }
 
 ul.nav-pills li.nav-item a.active {
